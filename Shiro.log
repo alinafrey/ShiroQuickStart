@@ -1,0 +1,47 @@
+DEBUG {2021-07-21 15:18:51,008} [Quickstart.main()] (Quickstart.java:147) - 
+DEBUG {2021-07-21 15:18:51,010} [Quickstart.main()] (Quickstart.java:148) - 
+DEBUG {2021-07-21 15:18:51,011} [Quickstart.main()] (Quickstart.java:149) - 
+DEBUG {2021-07-21 15:18:51,011} [Quickstart.main()] (Quickstart.java:150) - My First Apache Shiro Application
+ INFO {2021-07-21 15:18:51,011} [Quickstart.main()] (Quickstart.java:152) - 
+ INFO {2021-07-21 15:18:51,011} [Quickstart.main()] (Quickstart.java:153) - 
+ INFO {2021-07-21 15:18:51,011} [Quickstart.main()] (Quickstart.java:154) - 
+ INFO {2021-07-21 15:18:51,012} [Quickstart.main()] (Quickstart.java:155) - Accessing shiro.ini
+DEBUG {2021-07-21 15:18:51,020} [Quickstart.main()] (ResourceUtils.java:159) - Opening resource from class path [shiro.ini]
+DEBUG {2021-07-21 15:18:51,027} [Quickstart.main()] (Ini.java:342) - Parsing [users]
+DEBUG {2021-07-21 15:18:51,030} [Quickstart.main()] (Ini.java:342) - Parsing [roles]
+DEBUG {2021-07-21 15:18:51,032} [Quickstart.main()] (IniFactorySupport.java:122) - Creating instance from Ini [sections=users,roles]
+DEBUG {2021-07-21 15:18:51,064} [Quickstart.main()] (IniRealm.java:179) - Discovered the [roles] section.  Processing...
+DEBUG {2021-07-21 15:18:51,067} [Quickstart.main()] (IniRealm.java:185) - Discovered the [users] section.  Processing...
+ INFO {2021-07-21 15:18:51,077} [Quickstart.main()] (Quickstart.java:164) - 
+ INFO {2021-07-21 15:18:51,077} [Quickstart.main()] (Quickstart.java:165) - 
+ INFO {2021-07-21 15:18:51,078} [Quickstart.main()] (Quickstart.java:166) - 
+ INFO {2021-07-21 15:18:51,078} [Quickstart.main()] (Quickstart.java:167) - Getting session.
+DEBUG {2021-07-21 15:18:51,079} [Quickstart.main()] (AbstractValidatingSessionManager.java:213) - No sessionValidationScheduler set.  Attempting to create default instance.
+ INFO {2021-07-21 15:18:51,082} [Quickstart.main()] (AbstractValidatingSessionManager.java:230) - Enabling session validation scheduler...
+DEBUG {2021-07-21 15:18:51,088} [Quickstart.main()] (DefaultSessionManager.java:175) - Creating new EIS record for new session instance [org.apache.shiro.session.mgt.SimpleSession,id=null]
+ INFO {2021-07-21 15:18:51,090} [Quickstart.main()] (Quickstart.java:169) - 
+ INFO {2021-07-21 15:18:51,090} [Quickstart.main()] (Quickstart.java:170) - 
+ INFO {2021-07-21 15:18:51,092} [Quickstart.main()] (Quickstart.java:171) - 
+ INFO {2021-07-21 15:18:51,092} [Quickstart.main()] (Quickstart.java:172) - Session ID: edbf3782-d47c-4126-91ef-73188db6bb02
+ INFO {2021-07-21 15:18:51,092} [Quickstart.main()] (Quickstart.java:188) - 
+ INFO {2021-07-21 15:18:51,092} [Quickstart.main()] (Quickstart.java:189) - 
+ INFO {2021-07-21 15:18:51,092} [Quickstart.main()] (Quickstart.java:190) - 
+ INFO {2021-07-21 15:18:51,092} [Quickstart.main()] (Quickstart.java:191) - Before login.
+DEBUG {2021-07-21 15:18:51,092} [Quickstart.main()] (AuthenticatingRealm.java:569) - Looked up AuthenticationInfo [lonestarr] from doGetAuthenticationInfo
+DEBUG {2021-07-21 15:18:51,093} [Quickstart.main()] (AuthenticatingRealm.java:507) - AuthenticationInfo caching is disabled for info [lonestarr].  Submitted token: [org.apache.shiro.authc.UsernamePasswordToken - lonestarr, rememberMe=true].
+DEBUG {2021-07-21 15:18:51,094} [Quickstart.main()] (SimpleCredentialsMatcher.java:95) - Performing credentials equality check for tokenCredentials of type [[C and accountCredentials of type [java.lang.String]
+DEBUG {2021-07-21 15:18:51,094} [Quickstart.main()] (SimpleCredentialsMatcher.java:101) - Both credentials arguments can be easily converted to byte arrays.  Performing array equals comparison
+DEBUG {2021-07-21 15:18:51,095} [Quickstart.main()] (AbstractAuthenticator.java:231) - Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - lonestarr, rememberMe=true].  Returned account [lonestarr]
+DEBUG {2021-07-21 15:18:51,095} [Quickstart.main()] (DefaultSubjectContext.java:102) - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+DEBUG {2021-07-21 15:18:51,095} [Quickstart.main()] (DefaultSecurityManager.java:436) - Context already contains a session.  Returning.
+DEBUG {2021-07-21 15:18:51,096} [Quickstart.main()] (DefaultSubjectContext.java:102) - No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+ INFO {2021-07-21 15:18:51,096} [Quickstart.main()] (Quickstart.java:195) - 
+ INFO {2021-07-21 15:18:51,096} [Quickstart.main()] (Quickstart.java:196) - 
+ INFO {2021-07-21 15:18:51,096} [Quickstart.main()] (Quickstart.java:197) - 
+ INFO {2021-07-21 15:18:51,097} [Quickstart.main()] (Quickstart.java:198) - User [lonestarr] logged in successfully.
+ INFO {2021-07-21 15:18:51,097} [Quickstart.main()] (Quickstart.java:200) - 
+ INFO {2021-07-21 15:18:51,097} [Quickstart.main()] (Quickstart.java:201) - 
+ INFO {2021-07-21 15:18:51,097} [Quickstart.main()] (Quickstart.java:202) - 
+ INFO {2021-07-21 15:18:51,097} [Quickstart.main()] (Quickstart.java:203) - Logging out.
+DEBUG {2021-07-21 15:18:51,097} [Quickstart.main()] (DefaultSecurityManager.java:550) - Logging out subject with primary principal lonestarr
+DEBUG {2021-07-21 15:18:51,098} [Quickstart.main()] (AbstractNativeSessionManager.java:244) - Stopping session with id [edbf3782-d47c-4126-91ef-73188db6bb02]
